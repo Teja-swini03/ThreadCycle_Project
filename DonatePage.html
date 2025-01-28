@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now - ThreadCycle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <h1>ThreadCycle</h1>
+        </div>
+        <div class="nav">
+            <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="DonatePage.html" class="active">Donate Now</a>
+            <a href="TrackPage.html">Track Impact</a>
+            <a href="Voucher.html">Vouchers</a>
+            <a href="Aboutus.html">About Us</a>
+            
+        </div>
+    </div>
+
+
+    <div class="donate-container">
+        <h1>Donate Clothes</h1>
+        <p>Fill in the form below to schedule your donation pickup.</p>
+        <form action="submit_donation.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+            <label for="address">Pickup Address:</label>
+            <textarea id="address" name="address" placeholder="Enter your address here..." rows="3" required></textarea>
+
+            <label for="items">Clothing Items:</label>
+            <input type="text" id="items" name="items" placeholder="E.g., 5 T-shirts, 2 pairs of jeans" required>
+
+            <label for="date">Preferred Pickup Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Submit Donation</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ThreadCycle. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Impact - ThreadCycle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="track.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <h1>ThreadCycle</h1>
+        </div>
+        <div class="nav">
+            <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="DonatePage.html">Donate Now</a>
+            <a href="TrackPage.html" class="active">Track Impact</a>
+            <a href="Voucher.html">Vouchers</a>
+            <a href="Aboutus.html">About Us</a>
+        </div>
+    </div>
+
+    <div class="track-container">
+        <h1>Track Your Impact</h1>
+        <p>Enter your donation ID or email to see how your contribution is making a difference!</p>
+        <form action="track_donation.php" method="post">
+            <label for="donation-id">Donation ID:</label>
+            <input type="text" id="donation-id" name="donation-id" placeholder="Enter your Donation ID">
+
+            <p>OR</p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email">
+
+            <button type="submit">Track</button>
+        </form>
+
+        <div class="impact-stats">
+            <h2>Impact So Far</h2>
+            <ul>
+                <li><strong>Clothes Recycled:</strong> 2,500+ items</li>
+                <li><strong>Families Helped:</strong> 800+</li>
+                <li><strong>Environmental Savings:</strong> 1,200 kg CO<sub>2</sub> emissions reduced</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ThreadCycle. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

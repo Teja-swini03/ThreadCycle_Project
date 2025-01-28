@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(Donatepage.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05668d;
+    padding: 10px 20px;
+}
+
+.nav a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav a.active, .nav a:hover {
+    background-color: #028090;
+}
+
+.donate-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.donate-container h1 {
+    margin-bottom: 20px;
+    color: #05668d;
+}
+
+.donate-container p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #028090;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #028090;
+}
+
+footer {
+    background-color: #05668d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

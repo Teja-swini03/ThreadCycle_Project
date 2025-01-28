@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05668d;
+    padding: 10px 20px;
+    color: white;
+}
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.nav button{
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.nav button:hover{
+    background-color:#028090 ;
+}
+
+.nav a:hover {
+    background-color: #028090;
+}
+.hero-image {
+    background: url('hero2.jpg') no-repeat center center/cover;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-msg p {
+    margin-bottom: 2px;
+    font-size: 1.5em;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.box {
+    text-align: center;
+    background: #a3b18a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: 0.3s;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+footer {
+    background-color: #05668d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
